@@ -26,7 +26,7 @@ int main() {
   else if(drl>=70){
     phanloaidrl =3;
   }
-  else (drl < 70 ){
+  else(drl < 70){
     phanloaidrl =4;
   }
   if(phanloaihocluc==1 && phanloaidrl==1){
