@@ -11,10 +11,10 @@ int main() {
       break;
     case 3:
       puts("XEP_LOAI_KHA");
-        break;
+      break;
     case 4:
       puts("XEP_LOAI_TRUNG_BINH");
-        break;
+      break;
     default:
       puts("KHONG_HOP_LE");
       break;
