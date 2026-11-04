@@ -34,18 +34,23 @@ int main() {
   }
   if(phanloaihocluc==2 && phanloaidrl==1 || phanloaidrl==2){
     printf("HOC_BONG_GIOI");
+    break;
   }
   if(phanloaihocluc==1 && phanloaidrl==2){
     printf("HOC_BONG_GIOI");
+    break;
   }
   else if(phanloaihocluc==3 && phanloaidrl==1 || phanloaidrl==2 || phanloaidrl==3){
     printf("HOC_BONG_KHA");
+    break;
   }
   else if(phanloaihocluc==1 || phanloaihocluc==2 &&  phanloaidrl==3){
     printf("HOC_BONG_KHA");
+    break;
   }
   else{
     printf("KHONG_DAT");
+    break;
   }
   return 0;
 }
