@@ -29,28 +29,27 @@ int main() {
   else{
     phanloaidrl=4;
   }
+  
   if(phanloaihocluc==1 && phanloaidrl==1){
     printf("HOC_BONG_XUAT_SAC");
   }
-  if(phanloaihocluc==2 && phanloaidrl==1 || phanloaidrl==2){
+  else if(phanloaihocluc==2 && phanloaidrl==2){
     printf("HOC_BONG_GIOI");
-    break;
   }
-  if(phanloaihocluc==1 && phanloaidrl==2){
+  else if(phanloaihocluc==2 && phanloaidrl==2){
     printf("HOC_BONG_GIOI");
-    break;
   }
-  else if(phanloaihocluc==3 && phanloaidrl==1 || phanloaidrl==2 || phanloaidrl==3){
+  else if(phanloaihocluc==1 && phanloaidrl==3){
     printf("HOC_BONG_KHA");
-    break;
   }
-  else if(phanloaihocluc==1 || phanloaihocluc==2 &&  phanloaidrl==3){
+  else if(phanloaihocluc==2 && phanloaidrl==3){
     printf("HOC_BONG_KHA");
-    break;
+  }
+  else if(phanloaidrl==3 && phanloaidrl==3){
+    printf("HOC_BONG_KHA");
   }
   else{
     printf("KHONG_DAT");
-    break;
   }
   return 0;
 }
