@@ -18,16 +18,16 @@ int main() {
     phanloaihocluc=4;
   }
   if(drl >= 90){
-    phanloaidrl =1;
+    phanloaidrl=1;
   }
   else if(drl>=80){
-    phanloaidrl =2;
+    phanloaidrl=2;
   }
   else if(drl>=70){
-    phanloaidrl =3;
+    phanloaidrl=3;
   }
-  else(drl < 70){
-    phanloaidrl =4;
+  else{
+    phanloaidrl=4;
   }
   if(phanloaihocluc==1 && phanloaidrl==1){
     printf("HOC_BONG_XUAT_SAC");
