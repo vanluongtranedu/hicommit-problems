@@ -7,7 +7,7 @@ int main() {
       puts("XEP_LOAI_XUAT_SAC");
       break;
     case 2:
-      puts("XEP_LOAI_GIOI
+      puts("XEP_LOAI_GIOI);
       break;
     case 3:
       puts("XEP_LOAI_KHA");
