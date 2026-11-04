@@ -39,16 +39,10 @@ int main() {
   else if(phanloaihocluc==2 && phanloaidrl==1 || phanloaidrl==2){
     printf("HOC_BONG_GIOI");
   }
-  else if(phanloaihocluc==1 && phanloaidrl==3){
+  else if(phanloaidrl==3 && phanloaihocluc=1|| phanloaihocluc=2){
     printf("HOC_BONG_KHA");
   }
-  else if(phanloaihocluc==2 && phanloaidrl==3){
-    printf("HOC_BONG_KHA");
-  }
-  else if(phanloaihocluc==3 && phanloaidrl==1){
-    printf("HOC_BONG_KHA");
-  }
-  else if(phanloaihocluc==3 && phanloaidrl==2 || phanloaidrl==3){
+  else if(phanloaihocluc==3 && phanloaidrl==3){
     printf("HOC_BONG_KHA");
   }
   else{
