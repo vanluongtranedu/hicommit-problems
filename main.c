@@ -36,7 +36,10 @@ int main() {
   else if(phanloaihocluc==1 && phanloaidrl==2){
     printf("HOC_BONG_GIOI");
   }
-  else if(phanloaihocluc==2 && phanloaidrl==1 || phanloaidrl==2){
+  else if(phanloaihocluc==2 && phanloaidrl==1){
+    printf("HOC_BONG_GIOI");
+  }
+  else if(phanloaihocluc==2 && phanloaidrl==2){
     printf("HOC_BONG_GIOI");
   }
   else if(phanloaidrl==3 && phanloaihocluc==1 || phanloaihocluc==2){
