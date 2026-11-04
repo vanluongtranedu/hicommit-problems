@@ -8,7 +8,7 @@ int main() {
     case 2:
       printf("XEP_LOAI_GIOI");
     case 3:
-      prinf("XEP_LOAI_KHA");
+      printf("XEP_LOAI_KHA");
     case 4:
       printf("XEP_LOAI_TRUNG_BINH");
     default:
